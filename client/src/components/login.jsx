@@ -16,7 +16,7 @@ function Login({ onLogin, onCancel, onSwitchRegister }) {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:5000/login",
+        "https://blogspace-backend-5tdb.onrender.com/login",
         { email, password }
       );
 

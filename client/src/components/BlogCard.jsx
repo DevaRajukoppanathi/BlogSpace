@@ -1,7 +1,7 @@
 
 function BlogCard({ post, onView, onEdit, onDelete, user }) {
   const imageUrl = post.image
-    ? `http://localhost:5000/uploads/${encodeURIComponent(post.image)}`
+    ? `https://blogspace-backend-5tdb.onrender.com/uploads/${encodeURIComponent(post.image)}`
     : null;
 
   // Check whether the logged-in user owns this blog

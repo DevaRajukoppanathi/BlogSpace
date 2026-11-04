@@ -11,7 +11,7 @@ import Profile from "./components/Profile";
 
 import "./App.css";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://blogspace-backend-5tdb.onrender.com";
 
 function App() {
   const [blogs, setBlogs] = useState([]);

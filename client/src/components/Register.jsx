@@ -17,7 +17,7 @@ function Register({ onRegister, onCancel, onSwitchLogin }) {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:5000/register",
+        "https://blogspace-backend-5tdb.onrender.com/register",
         { name, email, password }
       );
 
